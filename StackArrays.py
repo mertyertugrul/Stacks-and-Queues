@@ -1,9 +1,3 @@
-class Node(object):
-    def __init__(self, data=None, ):
-        self.value = data
-        self.next = None
-
-
 class StackArray(object):
     def __init__(self, value):
         self.array = [value]
